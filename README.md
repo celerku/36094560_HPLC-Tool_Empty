@@ -47,3 +47,22 @@ Efficiency (N) and gradient optimisation are outside the implemented scope. Wher
 ## Running the Tool
 The HPLC Tool runs directly in the browser and requires no installation.
 When hosted using GitHub Pages, simply open the published site to begin.
+
+## Additional Features
+
+The HPLC Tool also includes:
+
+- Automatic extraction of chromatographic results and experimental conditions from uploaded files
+- Bulk and sequential file upload
+- Run history with automatically recorded decisions
+- Automatic retention-boundary and intermediate %B guidance
+- Automatic solvent-equivalent %B calculation for ACN/MeOH selectivity experiments
+- Temperature and solvent selectivity tracking
+- Detection of blanks, missing data and conflicting imported information
+- Editable review of imported run information
+- Automatic generation of complete next-run conditions
+- Method specification controls that update decisions dynamically
+- Export of the method-development record to Excel
+- Interactive chromatogram display and peak visibility controls
+- Interactive HPLC equipment/process diagram
+- Light and dark display modes
