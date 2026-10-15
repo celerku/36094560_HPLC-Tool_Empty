@@ -2762,12 +2762,12 @@ const DATA={
       "control": "Pump / solvent-delivery method; select the correct organic line.",
       "range": "0–100% B. The usable range depends on the solvent and column.",
       "source": "Equipment Discovery Book p10; Retention Discovery Book",
-      "retention": "In reversed-phase teaching examples, less organic usually increases k and tR; −10 points ≈2×tR is a rough local rule.",
+      "retention": "In reversed-phase course examples, less organic usually increases k and tR; −10 points ≈2×tR is a rough local rule.",
       "selectivity": "Different compounds respond differently; spacing/order can change.",
       "efficiency": "Resolution may change through k/α rather than N; no automatic N increase.",
       "limit": "Range not verified—check the instrument/column documentation.",
       "short": {
-        "retention": "In reversed-phase teaching examples, less organic usually increases k and tR.",
+        "retention": "In reversed-phase course examples, less organic usually increases k and tR.",
         "selectivity": "Different compounds respond differently.",
         "efficiency": "Resolution may change through k/α rather than N."
       }
@@ -2778,7 +2778,7 @@ const DATA={
       "name": "Flow rate",
       "category": "M",
       "control": "Pump method flow setpoint.",
-      "range": "Course examples: 0.4 mL/min (UPLC) and 1.5 mL/min (HPLC). Rated range not verified.",
+      "range": "Course setting: 1.5 mL/min (HPLC); 0.4 mL/min (UPLC). Model reference: Shimadzu LC-40D XR/XS, 0.0001–10 mL/min. Permitted pressure decreases at higher flows; check the model’s pressure–flow specification. Installed model not confirmed.",
       "source": "C0 Equipment LAB slides51–52; Equipment Discovery Book p20",
       "retention": "tR/t 0 vary approximately inversely with flow at fixed method; equilibrium k is not intrinsically changed.",
       "selectivity": "Ideally α is unchanged at equilibrium; flow is not a chemical selectivity control.",
@@ -2814,7 +2814,7 @@ const DATA={
       "name": "Pressure stop limit / measured backpressure",
       "category": "M",
       "control": "Pump safety limit in method; pressure transducer supplies the response.",
-      "range": "Course example: stop limit of 4,000 psi. This is not a universal hardware rating. Back pressure is measured by the instrument.",
+      "range": "Course pressure stop setting: 4,000 psi. This is a method stop setting, not a manufacturer maximum. Actual back pressure is measured; instrument and column ratings are separate.",
       "source": "C0 Equipment LAB slides31–36",
       "retention": "Actual BP depends on flow, viscosity, geometry and restrictions; setting the stop limit does not set tR.",
       "selectivity": "No deliberate selectivity effect.",
@@ -2868,7 +2868,7 @@ const DATA={
       "name": "Injection volume / loop",
       "category": "M",
       "control": "Manual injector: fit loop; autosampler: volume in method.",
-      "range": "Course examples: 20 µL (HPLC) and 0.5 µL (UPLC). Rated range not verified.",
+      "range": "Course setting: 20 µL (HPLC); 0.5 µL (UPLC). Model reference: Shimadzu SIL-40C XS, 0.01–50 µL standard range. Manual injection depends on the fitted loop. Installed model not confirmed.",
       "source": "Equipment Discovery Book pp22–26; C0 Equipment LAB slides40–52 slide51",
       "retention": "At low load, no intrinsic k change; large volumes/overload can shift apparent peaks.",
       "selectivity": "No intended intrinsic α change; overload/solvent mismatch can distort apparent separation.",
@@ -2958,7 +2958,7 @@ const DATA={
       "name": "Column length",
       "category": "M",
       "control": "Choose a different physical column.",
-      "range": "Teaching examples: 30–250 mm. Fixed column property.",
+      "range": "course examples: 30–250 mm. Fixed column property.",
       "source": "C1 Column toolkit slides4–8 slide4; C0 Equipment LAB slides40–52 slide51",
       "retention": "At fixed packing/flow, longer L generally increases tR and pressure.",
       "selectivity": "Ideally α unchanged with same stationary-phase chemistry.",
@@ -2976,7 +2976,7 @@ const DATA={
       "name": "Column internal diameter",
       "category": "M",
       "control": "Choose physical column; reassess flow and injection loading.",
-      "range": "Teaching examples: 2.1, 3.2 and 4.6 mm. Fixed column property.",
+      "range": "course examples: 2.1, 3.2 and 4.6 mm. Fixed column property.",
       "source": "C1 Column toolkit slides4–8 slide5",
       "retention": "At fixed flow, changes linear velocity/t 0; fixed-flow and fixed-velocity comparisons differ.",
       "selectivity": "Not intrinsically chemical; keep packing chemistry fixed.",
@@ -2994,7 +2994,7 @@ const DATA={
       "name": "Particle size",
       "category": "M",
       "control": "Choose physical packing/column.",
-      "range": "Teaching examples: 1.8–5 µm. Fixed packing property.",
+      "range": "course examples: 1.8–5 µm. Fixed packing property.",
       "source": "C1 Column toolkit slides4–8 slide6; C0 Equipment LAB slides40–52 slide51",
       "retention": "Changes pressure and transport behaviour; no simple universal tR improvement.",
       "selectivity": "Same surface chemistry ideally preserves equilibrium α.",
@@ -3012,7 +3012,7 @@ const DATA={
       "name": "Pore diameter",
       "category": "M",
       "control": "Choose physical packing/column.",
-      "range": "Teaching examples: 100 and 140 Å. Choose pores suitable for the analyte size.",
+      "range": "course examples: 100 and 140 Å. Choose pores suitable for the analyte size.",
       "source": "C1 Column toolkit slides4–8 slide6; C0 Equipment ED slide20",
       "retention": "Accessible surface depends on molecular size; exclusion can change retention.",
       "selectivity": "May affect analytes differently; no universal direction.",
@@ -3120,9 +3120,9 @@ const DATA={
       "name": "Column temperature",
       "category": "M+C",
       "control": "Column oven method setpoint; verify both oven and column limits.",
-      "range": "Course trials: ambient, 40 °C and 60 °C. Check actual oven and column limits.",
+      "range": "Course trials: ambient, 40 °C and 60 °C. Model references: Shimadzu CTO-40S, room temperature minus 10 °C to 85 °C; CTO-40C, room temperature minus 10 °C to 100 °C. Column limits also apply. Installed model not confirmed.",
       "source": "Selectivity Discovery Book p18; C2 Selectivity ED slides27–28",
-      "retention": "Usually higher temperature lowers viscosity and tR; 1–2%/°C is a rough teaching estimate.",
+      "retention": "Usually higher temperature lowers viscosity and tR; 1–2%/°C is a rough course estimate.",
       "selectivity": "Chemical role: different compounds can move differently; compare chromatograms.",
       "efficiency": "Mechanical/transport role: viscosity/diffusion affect pressure and N; no guaranteed improvement.",
       "limit": "record:temperature",
@@ -3138,7 +3138,7 @@ const DATA={
       "name": "Detection wavelength",
       "category": "M",
       "control": "UV/PDA method wavelength; fluorescence needs separate verified excitation/emission settings.",
-      "range": "Course example: 254 nm. Full detector wavelength range not verified.",
+      "range": "Course setting: 254 nm. Model references: Shimadzu SPD-40, 190–700 nm; SPD-M40, 190–800 nm. Installed detector model not confirmed.",
       "source": "Equipment Discovery Book pp28–29",
       "retention": "Does not change true chromatographic retention; changes which compounds are detected.",
       "selectivity": "Does not improve chromatographic α; apparent peak count can change.",
@@ -3268,7 +3268,7 @@ function showEquipmentPage(){document.querySelectorAll('.flow-page').forEach(p=>
 function openGuide(module='pump',parameter){support();select(module,parameter||(module==='pump'?'composition':undefined));showEquipmentPage();$('eqModuleTitle').focus({preventScroll:true});}
 function makeGuide(){const old=document.querySelector('#equipment > .grid > article:nth-child(2)');old?.remove();const ep=document.querySelector('#flowPage1 .equipment-panel');if(!ep)return;
  ep.remove();
- dialog=document.createElement('section');dialog.id='fc1EquipmentGuide';dialog.setAttribute('aria-labelledby','eqGuideTitle');dialog.innerHTML=`<div class="eq-header"><div><h2 id="eqGuideTitle">Equipment</h2><p class="small">Teaching settings are examples. Actual operating limits depend on the instrument and column.</p></div><button type="button" id="eqCloseGuide" class="secondary">Back to specifications</button></div><div class="eq-legend" aria-label="Category legend">${badge('M')}${badge('C')}${badge('M+C')}<span>Categories describe the control; they do not mean every response changes.</span></div><div class="eq-diagram"><div id="eqLiquidPath" aria-label="Liquid path"></div><div class="eq-signals"><span>Sample → injector · Detector ⇢ signal ⇢</span>${node('software','Software / data system')}</div><p class="small">→ liquid · ⇢ signal · dashed enclosure = oven around column</p></div><section class="eq-selected"><h2 id="eqModuleTitle" tabindex="-1"></h2><p id="eqModuleFunction"></p><div id="eqParameterChoices" class="eq-choice-row"></div><article id="eqParameterCard"></article></section><div class="eq-response-grid"><section id="eqReadResponses"><h3>Read directly</h3><p><b>tR (min):</b> injection-to-peak-apex time, read from the chromatogram/peak table.</p><p><b>Peak count:</b> number of observed/included integrated peaks; coelution and detection can hide compounds.</p><p><b>BP (psi):</b> measured instrument pressure, read from its transducer trace or numeric report—not the detector signal.</p></section><section id="eqCalculatedResponses"><h3>Calculated</h3><p><b>k:</b> unitless retention factor; needs tR and a justified unretained-marker/reference t₀.</p><p><b>Rs:</b> unitless neighbouring-pair separation; needs two tR values and their matching peak widths.</p><p><b>N:</b> unitless theoretical plates; needs tR and a consistently defined peak width.</p><p class="small">Software-printed k, Rs and N are still calculated quantities.</p></section></div><details id="eqEquations"><summary>Equations and detailed assumptions</summary><p>k=(tR−t₀)/t₀. Baseline-width Rs=2(tR₂−tR₁)/(Wb₁+Wb₂). N = 16(tR/Wb)² or 5.54(tR/W½)². Do not mix baseline and half-height widths. The first peak’s usual Rs = 0 is not an adjacent-pair result; t₀ requires evidence, not an assumption that the first peak is unretained.</p><p>Use consistent peak-width definitions. Peak area needs calibration to estimate concentration.</p></details><details id="eqFullParameters"><summary>Full parameter tables</summary><div class="eq-table-scroll"><table><thead><tr><th>Module / control</th><th>Category</th><th>Operating examples / units</th><th>Effects and qualifications</th></tr></thead><tbody>${DATA.parameters.map(p=>`<tr><td><button type="button" data-eq-jump="${p.id}">${esc(p.name)}</button><br>${esc(DATA.modules[p.module][0])}<br>${esc(p.control)}</td><td>${badge(p.category)}</td><td>${esc(p.range)}</td><td>Retention: ${esc(p.retention)}<br>Selectivity: ${esc(p.selectivity)}<br>Efficiency: ${esc(p.efficiency)}</td></tr>`).join('')}</tbody></table></div></details><details id="eqAvailable"><summary>Equipment / column details</summary><p>Configuration: low-pressure quaternary systems proportion/mix solvent before one pump; high-pressure binary systems mix after separate solvent pumps. Manual injectors use a fitted loop; autosamplers meter volume. UV and PDA are detector alternatives. The simple diagram shows functional order, not a particular instrument stack.</p><p>Instrument model: <b>Not verified</b>. Confirm the instrument model before using model-specific limits.</p><div id="eqColumnInventory"></div></details><details id="eqHardware"><summary>Verified hardware limits</summary><div id="eqVerifiedLimits"></div></details>`;
+ dialog=document.createElement('section');dialog.id='fc1EquipmentGuide';dialog.setAttribute('aria-labelledby','eqGuideTitle');dialog.innerHTML=`<div class="eq-header"><div><h2 id="eqGuideTitle">Equipment</h2><p class="small">Course settings describe the method. Named-model ranges are reference information; confirm your installed model and column before using them.</p></div><button type="button" id="eqCloseGuide" class="secondary">Back to specifications</button></div><div class="eq-legend" aria-label="Category legend">${badge('M')}${badge('C')}${badge('M+C')}<span>Categories describe the control; they do not mean every response changes.</span></div><div class="eq-diagram"><div id="eqLiquidPath" aria-label="Liquid path"></div><div class="eq-signals"><span>Sample → injector · Detector ⇢ signal ⇢</span>${node('software','Software / data system')}</div><p class="small">→ liquid · ⇢ signal · dashed enclosure = oven around column</p></div><section class="eq-selected"><h2 id="eqModuleTitle" tabindex="-1"></h2><p id="eqModuleFunction"></p><div id="eqParameterChoices" class="eq-choice-row"></div><article id="eqParameterCard"></article></section><div class="eq-response-grid"><section id="eqReadResponses"><h3>Read directly</h3><p><b>tR (min):</b> injection-to-peak-apex time, read from the chromatogram/peak table.</p><p><b>Peak count:</b> number of observed/included integrated peaks; coelution and detection can hide compounds.</p><p><b>BP (psi):</b> measured instrument pressure, read from its transducer trace or numeric report—not the detector signal.</p></section><section id="eqCalculatedResponses"><h3>Calculated</h3><p><b>k:</b> unitless retention factor; needs tR and a justified unretained-marker/reference t₀.</p><p><b>Rs:</b> unitless neighbouring-pair separation; needs two tR values and their matching peak widths.</p><p><b>N:</b> unitless theoretical plates; needs tR and a consistently defined peak width.</p><p class="small">Software-printed k, Rs and N are still calculated quantities.</p></section></div><details id="eqEquations"><summary>Equations and detailed assumptions</summary><p>k=(tR−t₀)/t₀. Baseline-width Rs=2(tR₂−tR₁)/(Wb₁+Wb₂). N = 16(tR/Wb)² or 5.54(tR/W½)². Do not mix baseline and half-height widths. The first peak’s usual Rs = 0 is not an adjacent-pair result; t₀ requires evidence, not an assumption that the first peak is unretained.</p><p>Use consistent peak-width definitions. Peak area needs calibration to estimate concentration.</p></details><details id="eqFullParameters"><summary>Full parameter tables</summary><div class="eq-table-scroll"><table><thead><tr><th>Module / control</th><th>Category</th><th>Settings, reference ranges and units</th><th>Effects and qualifications</th></tr></thead><tbody>${DATA.parameters.map(p=>`<tr><td><button type="button" data-eq-jump="${p.id}">${esc(p.name)}</button><br>${esc(DATA.modules[p.module][0])}<br>${esc(p.control)}</td><td>${badge(p.category)}</td><td>${esc(p.range)}</td><td>Retention: ${esc(p.retention)}<br>Selectivity: ${esc(p.selectivity)}<br>Efficiency: ${esc(p.efficiency)}</td></tr>`).join('')}</tbody></table></div></details><details id="eqAvailable"><summary>Equipment / column details</summary><p>Configuration: low-pressure quaternary systems proportion/mix solvent before one pump; high-pressure binary systems mix after separate solvent pumps. Manual injectors use a fitted loop; autosamplers meter volume. UV and PDA are detector alternatives. The simple diagram shows functional order, not a particular instrument stack.</p><p>Instrument model: <b>Not verified</b>. Confirm the instrument model before using model-specific limits.</p><div id="eqColumnInventory"></div></details><details id="eqHardware"><summary>Verified hardware limits</summary><div id="eqVerifiedLimits"></div></details>`;
  const page=document.createElement('section');page.id='flowPage5';page.className='flow-page';page.dataset.n='5';page.append(dialog);$('flowPage4').after(page);const nav=document.querySelector('.flow-nav'),tab=document.createElement('button');tab.type='button';tab.id='eqEquipmentTab';tab.className='eq-page-tab';tab.textContent='Equipment';tab.setAttribute('aria-controls','flowPage5');tab.onclick=showEquipmentPage;nav.append(tab);$('eqCloseGuide').onclick=()=>nav.querySelector('.flow-step').click();nav.addEventListener('click',e=>{if(e.target.closest('.flow-step')){page.classList.remove('active');tab.classList.remove('active');}});dialog.querySelectorAll('[data-eq-jump]').forEach(b=>b.onclick=()=>{const p=DATA.parameters.find(x=>x.id===b.dataset.eqJump);select(p.module,p.id);$('eqModuleTitle').scrollIntoView({block:'start'});});renderDiagram();
 }
 // The only addition outside the Equipment reference: read-only contextual Page4 note.
