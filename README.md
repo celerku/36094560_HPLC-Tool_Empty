@@ -66,3 +66,6 @@ The HPLC Tool also includes:
 - Interactive chromatogram display and peak visibility controls
 - Interactive HPLC equipment/process diagram
 - Light and dark display modes
+
+## 7/11/2026
+Updated for Efficiency and gradient data. 
